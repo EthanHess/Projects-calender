@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27CDCAD61A8980E800638D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDCAD51A8980E800638D36 /* main.m */; };
+		27CDCAD91A8980E800638D36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDCAD81A8980E800638D36 /* AppDelegate.m */; };
+		27CDCADC1A8980E800638D36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDCADB1A8980E800638D36 /* ViewController.m */; };
+		27CDCADF1A8980E800638D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27CDCADD1A8980E800638D36 /* Main.storyboard */; };
+		27CDCAE11A8980E800638D36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CDCAE01A8980E800638D36 /* Images.xcassets */; };
+		27CDCAE41A8980E800638D36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27CDCAE21A8980E800638D36 /* LaunchScreen.xib */; };
+		27CDCAF01A8980E800638D36 /* SwitchScreensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDCAEF1A8980E800638D36 /* SwitchScreensTests.m */; };
+		27CDCAFB1A89893F00638D36 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDCAFA1A89893F00638D36 /* DetailViewController.m */; };
+		27CDCB011A899A0D00638D36 /* TimesSquare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27CDCB001A899A0D00638D36 /* TimesSquare.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27CDCAEA1A8980E800638D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27CDCAC81A8980E800638D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CDCACF1A8980E800638D36;
+			remoteInfo = SwitchScreens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27CDCAD01A8980E800638D36 /* SwitchScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CDCAD41A8980E800638D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CDCAD51A8980E800638D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27CDCAD71A8980E800638D36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27CDCAD81A8980E800638D36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27CDCADA1A8980E800638D36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27CDCADB1A8980E800638D36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27CDCADE1A8980E800638D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27CDCAE01A8980E800638D36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27CDCAE31A8980E800638D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		27CDCAE91A8980E800638D36 /* SwitchScreensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchScreensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CDCAEE1A8980E800638D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27CDCAEF1A8980E800638D36 /* SwitchScreensTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchScreensTests.m; sourceTree = "<group>"; };
+		27CDCAF91A89893F00638D36 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		27CDCAFA1A89893F00638D36 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		27CDCB001A899A0D00638D36 /* TimesSquare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TimesSquare.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27CDCACD1A8980E800638D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CDCAE61A8980E800638D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27CDCAC71A8980E800638D36 = {
+			isa = PBXGroup;
+			children = (
+				27CDCAD21A8980E800638D36 /* SwitchScreens */,
+				27CDCAEC1A8980E800638D36 /* SwitchScreensTests */,
+				27CDCAD11A8980E800638D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27CDCAD11A8980E800638D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27CDCAD01A8980E800638D36 /* SwitchScreens.app */,
+				27CDCAE91A8980E800638D36 /* SwitchScreensTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27CDCAD21A8980E800638D36 /* SwitchScreens */ = {
+			isa = PBXGroup;
+			children = (
+				27CDCAD71A8980E800638D36 /* AppDelegate.h */,
+				27CDCAD81A8980E800638D36 /* AppDelegate.m */,
+				27CDCADA1A8980E800638D36 /* ViewController.h */,
+				27CDCADB1A8980E800638D36 /* ViewController.m */,
+				27CDCAF91A89893F00638D36 /* DetailViewController.h */,
+				27CDCAFA1A89893F00638D36 /* DetailViewController.m */,
+				27CDCADD1A8980E800638D36 /* Main.storyboard */,
+				27CDCAE01A8980E800638D36 /* Images.xcassets */,
+				27CDCAE21A8980E800638D36 /* LaunchScreen.xib */,
+				27CDCAD31A8980E800638D36 /* Supporting Files */,
+			);
+			path = SwitchScreens;
+			sourceTree = "<group>";
+		};
+		27CDCAD31A8980E800638D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27CDCB001A899A0D00638D36 /* TimesSquare.jpg */,
+				27CDCAD41A8980E800638D36 /* Info.plist */,
+				27CDCAD51A8980E800638D36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27CDCAEC1A8980E800638D36 /* SwitchScreensTests */ = {
+			isa = PBXGroup;
+			children = (
+				27CDCAEF1A8980E800638D36 /* SwitchScreensTests.m */,
+				27CDCAED1A8980E800638D36 /* Supporting Files */,
+			);
+			path = SwitchScreensTests;
+			sourceTree = "<group>";
+		};
+		27CDCAED1A8980E800638D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27CDCAEE1A8980E800638D36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27CDCACF1A8980E800638D36 /* SwitchScreens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CDCAF31A8980E800638D36 /* Build configuration list for PBXNativeTarget "SwitchScreens" */;
+			buildPhases = (
+				27CDCACC1A8980E800638D36 /* Sources */,
+				27CDCACD1A8980E800638D36 /* Frameworks */,
+				27CDCACE1A8980E800638D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchScreens;
+			productName = SwitchScreens;
+			productReference = 27CDCAD01A8980E800638D36 /* SwitchScreens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27CDCAE81A8980E800638D36 /* SwitchScreensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27CDCAF61A8980E800638D36 /* Build configuration list for PBXNativeTarget "SwitchScreensTests" */;
+			buildPhases = (
+				27CDCAE51A8980E800638D36 /* Sources */,
+				27CDCAE61A8980E800638D36 /* Frameworks */,
+				27CDCAE71A8980E800638D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27CDCAEB1A8980E800638D36 /* PBXTargetDependency */,
+			);
+			name = SwitchScreensTests;
+			productName = SwitchScreensTests;
+			productReference = 27CDCAE91A8980E800638D36 /* SwitchScreensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27CDCAC81A8980E800638D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ethan Hess";
+				TargetAttributes = {
+					27CDCACF1A8980E800638D36 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					27CDCAE81A8980E800638D36 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 27CDCACF1A8980E800638D36;
+					};
+				};
+			};
+			buildConfigurationList = 27CDCACB1A8980E800638D36 /* Build configuration list for PBXProject "SwitchScreens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27CDCAC71A8980E800638D36;
+			productRefGroup = 27CDCAD11A8980E800638D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27CDCACF1A8980E800638D36 /* SwitchScreens */,
+				27CDCAE81A8980E800638D36 /* SwitchScreensTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27CDCACE1A8980E800638D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CDCADF1A8980E800638D36 /* Main.storyboard in Resources */,
+				27CDCB011A899A0D00638D36 /* TimesSquare.jpg in Resources */,
+				27CDCAE41A8980E800638D36 /* LaunchScreen.xib in Resources */,
+				27CDCAE11A8980E800638D36 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CDCAE71A8980E800638D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27CDCACC1A8980E800638D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CDCADC1A8980E800638D36 /* ViewController.m in Sources */,
+				27CDCAD91A8980E800638D36 /* AppDelegate.m in Sources */,
+				27CDCAD61A8980E800638D36 /* main.m in Sources */,
+				27CDCAFB1A89893F00638D36 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27CDCAE51A8980E800638D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27CDCAF01A8980E800638D36 /* SwitchScreensTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27CDCAEB1A8980E800638D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27CDCACF1A8980E800638D36 /* SwitchScreens */;
+			targetProxy = 27CDCAEA1A8980E800638D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27CDCADD1A8980E800638D36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CDCADE1A8980E800638D36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27CDCAE21A8980E800638D36 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27CDCAE31A8980E800638D36 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27CDCAF11A8980E800638D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27CDCAF21A8980E800638D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27CDCAF41A8980E800638D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchScreens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27CDCAF51A8980E800638D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwitchScreens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27CDCAF71A8980E800638D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwitchScreensTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchScreens.app/SwitchScreens";
+			};
+			name = Debug;
+		};
+		27CDCAF81A8980E800638D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwitchScreensTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchScreens.app/SwitchScreens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27CDCACB1A8980E800638D36 /* Build configuration list for PBXProject "SwitchScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CDCAF11A8980E800638D36 /* Debug */,
+				27CDCAF21A8980E800638D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27CDCAF31A8980E800638D36 /* Build configuration list for PBXNativeTarget "SwitchScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CDCAF41A8980E800638D36 /* Debug */,
+				27CDCAF51A8980E800638D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27CDCAF61A8980E800638D36 /* Build configuration list for PBXNativeTarget "SwitchScreensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27CDCAF71A8980E800638D36 /* Debug */,
+				27CDCAF81A8980E800638D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27CDCAC81A8980E800638D36 /* Project object */;
+}

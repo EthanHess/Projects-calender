@@ -17,6 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+UIButton *button = [[UIButton alloc] initWithFrame:self.view.frame];
+[button setTitle:@"Regular Button" forState:UIControlStateNormal];
+
+    [button addTarget:self action:@selector(logThatTheButtonTapped:) forControlEvents:
+     UIControlEventTouchUpInside];
+     
+    
+    
+    [self.view addSubview:button];
+}
+- (void) logThatTheButtonTapped:(id)sender {
+    
+    UIButton *buttonFromSender = sender;
+    
+    NSLog(@"Button with title: %@ was pushed!", buttonFromSender);
 }
 
 - (void)didReceiveMemoryWarning {
