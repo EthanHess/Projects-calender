@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C8C99E1A892C080090DB9F /* CMViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8C99C1A892C080090DB9F /* CMViewCon.m */; };
+		27C8C99F1A892C080090DB9F /* CMViewCon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C8C99D1A892C080090DB9F /* CMViewCon.xib */; };
+		711A502A19386CFB005642EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A502919386CFB005642EF /* Foundation.framework */; };
+		711A502C19386CFB005642EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A502B19386CFB005642EF /* CoreGraphics.framework */; };
+		711A502E19386CFB005642EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A502D19386CFB005642EF /* UIKit.framework */; };
+		711A503419386CFB005642EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711A503219386CFB005642EF /* InfoPlist.strings */; };
+		711A503619386CFB005642EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A503519386CFB005642EF /* main.m */; };
+		711A503A19386CFB005642EF /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A503919386CFB005642EF /* CMAppDelegate.m */; };
+		711A503C19386CFB005642EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711A503B19386CFB005642EF /* Images.xcassets */; };
+		711A504319386CFC005642EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A504219386CFC005642EF /* XCTest.framework */; };
+		711A504419386CFC005642EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A502919386CFB005642EF /* Foundation.framework */; };
+		711A504519386CFC005642EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711A502D19386CFB005642EF /* UIKit.framework */; };
+		711A504D19386CFC005642EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711A504B19386CFC005642EF /* InfoPlist.strings */; };
+		711A504F19386CFC005642EF /* ClearMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711A504E19386CFC005642EF /* ClearMeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		711A504619386CFC005642EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711A501E19386CFB005642EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711A502519386CFB005642EF;
+			remoteInfo = ClearMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27C8C99B1A892C080090DB9F /* CMViewCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMViewCon.h; sourceTree = "<group>"; };
+		27C8C99C1A892C080090DB9F /* CMViewCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMViewCon.m; sourceTree = "<group>"; };
+		27C8C99D1A892C080090DB9F /* CMViewCon.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CMViewCon.xib; sourceTree = "<group>"; };
+		711A502619386CFB005642EF /* ClearMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClearMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		711A502919386CFB005642EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		711A502B19386CFB005642EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		711A502D19386CFB005642EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		711A503119386CFB005642EF /* ClearMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClearMe-Info.plist"; sourceTree = "<group>"; };
+		711A503319386CFB005642EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		711A503519386CFB005642EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		711A503719386CFB005642EF /* ClearMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClearMe-Prefix.pch"; sourceTree = "<group>"; };
+		711A503819386CFB005642EF /* CMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAppDelegate.h; sourceTree = "<group>"; };
+		711A503919386CFB005642EF /* CMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegate.m; sourceTree = "<group>"; };
+		711A503B19386CFB005642EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		711A504119386CFC005642EF /* ClearMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		711A504219386CFC005642EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		711A504A19386CFC005642EF /* ClearMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClearMeTests-Info.plist"; sourceTree = "<group>"; };
+		711A504C19386CFC005642EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		711A504E19386CFC005642EF /* ClearMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClearMeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		711A502319386CFB005642EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711A502C19386CFB005642EF /* CoreGraphics.framework in Frameworks */,
+				711A502E19386CFB005642EF /* UIKit.framework in Frameworks */,
+				711A502A19386CFB005642EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711A503E19386CFC005642EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711A504319386CFC005642EF /* XCTest.framework in Frameworks */,
+				711A504519386CFC005642EF /* UIKit.framework in Frameworks */,
+				711A504419386CFC005642EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711A501D19386CFB005642EF = {
+			isa = PBXGroup;
+			children = (
+				711A502F19386CFB005642EF /* ClearMe */,
+				711A504819386CFC005642EF /* ClearMeTests */,
+				711A502819386CFB005642EF /* Frameworks */,
+				711A502719386CFB005642EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		711A502719386CFB005642EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711A502619386CFB005642EF /* ClearMe.app */,
+				711A504119386CFC005642EF /* ClearMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		711A502819386CFB005642EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				711A502919386CFB005642EF /* Foundation.framework */,
+				711A502B19386CFB005642EF /* CoreGraphics.framework */,
+				711A502D19386CFB005642EF /* UIKit.framework */,
+				711A504219386CFC005642EF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		711A502F19386CFB005642EF /* ClearMe */ = {
+			isa = PBXGroup;
+			children = (
+				711A503819386CFB005642EF /* CMAppDelegate.h */,
+				711A503919386CFB005642EF /* CMAppDelegate.m */,
+				27C8C99B1A892C080090DB9F /* CMViewCon.h */,
+				27C8C99C1A892C080090DB9F /* CMViewCon.m */,
+				27C8C99D1A892C080090DB9F /* CMViewCon.xib */,
+				711A503B19386CFB005642EF /* Images.xcassets */,
+				711A503019386CFB005642EF /* Supporting Files */,
+			);
+			path = ClearMe;
+			sourceTree = "<group>";
+		};
+		711A503019386CFB005642EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711A503119386CFB005642EF /* ClearMe-Info.plist */,
+				711A503219386CFB005642EF /* InfoPlist.strings */,
+				711A503519386CFB005642EF /* main.m */,
+				711A503719386CFB005642EF /* ClearMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		711A504819386CFC005642EF /* ClearMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				711A504E19386CFC005642EF /* ClearMeTests.m */,
+				711A504919386CFC005642EF /* Supporting Files */,
+			);
+			path = ClearMeTests;
+			sourceTree = "<group>";
+		};
+		711A504919386CFC005642EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711A504A19386CFC005642EF /* ClearMeTests-Info.plist */,
+				711A504B19386CFC005642EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		711A502519386CFB005642EF /* ClearMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711A505219386CFC005642EF /* Build configuration list for PBXNativeTarget "ClearMe" */;
+			buildPhases = (
+				711A502219386CFB005642EF /* Sources */,
+				711A502319386CFB005642EF /* Frameworks */,
+				711A502419386CFB005642EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClearMe;
+			productName = ClearMe;
+			productReference = 711A502619386CFB005642EF /* ClearMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		711A504019386CFC005642EF /* ClearMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711A505519386CFC005642EF /* Build configuration list for PBXNativeTarget "ClearMeTests" */;
+			buildPhases = (
+				711A503D19386CFC005642EF /* Sources */,
+				711A503E19386CFC005642EF /* Frameworks */,
+				711A503F19386CFC005642EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711A504719386CFC005642EF /* PBXTargetDependency */,
+			);
+			name = ClearMeTests;
+			productName = ClearMeTests;
+			productReference = 711A504119386CFC005642EF /* ClearMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		711A501E19386CFB005642EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DevMountain;
+				TargetAttributes = {
+					711A504019386CFC005642EF = {
+						TestTargetID = 711A502519386CFB005642EF;
+					};
+				};
+			};
+			buildConfigurationList = 711A502119386CFB005642EF /* Build configuration list for PBXProject "ClearMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 711A501D19386CFB005642EF;
+			productRefGroup = 711A502719386CFB005642EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				711A502519386CFB005642EF /* ClearMe */,
+				711A504019386CFC005642EF /* ClearMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		711A502419386CFB005642EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C8C99F1A892C080090DB9F /* CMViewCon.xib in Resources */,
+				711A503419386CFB005642EF /* InfoPlist.strings in Resources */,
+				711A503C19386CFB005642EF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711A503F19386CFC005642EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711A504D19386CFC005642EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		711A502219386CFB005642EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711A503A19386CFB005642EF /* CMAppDelegate.m in Sources */,
+				27C8C99E1A892C080090DB9F /* CMViewCon.m in Sources */,
+				711A503619386CFB005642EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711A503D19386CFC005642EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711A504F19386CFC005642EF /* ClearMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		711A504719386CFC005642EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711A502519386CFB005642EF /* ClearMe */;
+			targetProxy = 711A504619386CFC005642EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		711A503219386CFB005642EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711A503319386CFB005642EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		711A504B19386CFC005642EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711A504C19386CFC005642EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		711A505019386CFC005642EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		711A505119386CFC005642EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		711A505319386CFC005642EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClearMe/ClearMe-Prefix.pch";
+				INFOPLIST_FILE = "ClearMe/ClearMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		711A505419386CFC005642EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClearMe/ClearMe-Prefix.pch";
+				INFOPLIST_FILE = "ClearMe/ClearMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		711A505619386CFC005642EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClearMe.app/ClearMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClearMe/ClearMe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ClearMeTests/ClearMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		711A505719386CFC005642EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClearMe.app/ClearMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClearMe/ClearMe-Prefix.pch";
+				INFOPLIST_FILE = "ClearMeTests/ClearMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		711A502119386CFB005642EF /* Build configuration list for PBXProject "ClearMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711A505019386CFC005642EF /* Debug */,
+				711A505119386CFC005642EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711A505219386CFC005642EF /* Build configuration list for PBXNativeTarget "ClearMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711A505319386CFC005642EF /* Debug */,
+				711A505419386CFC005642EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711A505519386CFC005642EF /* Build configuration list for PBXNativeTarget "ClearMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711A505619386CFC005642EF /* Debug */,
+				711A505719386CFC005642EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 711A501E19386CFB005642EF /* Project object */;
+}

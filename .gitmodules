@@ -1,0 +1,3 @@
+[submodule "SubmoduleDemo/External/AFNetworking"]
+	path = SubmoduleDemo/External/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git

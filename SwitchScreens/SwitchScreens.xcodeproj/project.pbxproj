@@ -16,6 +16,10 @@
 		27CDCAF01A8980E800638D36 /* SwitchScreensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDCAEF1A8980E800638D36 /* SwitchScreensTests.m */; };
 		27CDCAFB1A89893F00638D36 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDCAFA1A89893F00638D36 /* DetailViewController.m */; };
 		27CDCB011A899A0D00638D36 /* TimesSquare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27CDCB001A899A0D00638D36 /* TimesSquare.jpg */; };
+		27CDCC471A8D051100638D36 /* YosemiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDCC461A8D051100638D36 /* YosemiteViewController.m */; };
+		27CDCC7B1A8D13B500638D36 /* Yosemite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27CDCC7A1A8D13B500638D36 /* Yosemite.jpg */; };
+		27CDCD081A8D7A3A00638D36 /* SpaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27CDCD071A8D7A3A00638D36 /* SpaceViewController.m */; };
+		27CDCD0A1A8D7B9800638D36 /* Space.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27CDCD091A8D7B9800638D36 /* Space.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,12 @@
 		27CDCAF91A89893F00638D36 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		27CDCAFA1A89893F00638D36 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		27CDCB001A899A0D00638D36 /* TimesSquare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TimesSquare.jpg; sourceTree = "<group>"; };
+		27CDCC451A8D051100638D36 /* YosemiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YosemiteViewController.h; sourceTree = "<group>"; };
+		27CDCC461A8D051100638D36 /* YosemiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YosemiteViewController.m; sourceTree = "<group>"; };
+		27CDCC7A1A8D13B500638D36 /* Yosemite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite.jpg; sourceTree = "<group>"; };
+		27CDCD061A8D7A3A00638D36 /* SpaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceViewController.h; sourceTree = "<group>"; };
+		27CDCD071A8D7A3A00638D36 /* SpaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceViewController.m; sourceTree = "<group>"; };
+		27CDCD091A8D7B9800638D36 /* Space.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Space.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +102,10 @@
 				27CDCADB1A8980E800638D36 /* ViewController.m */,
 				27CDCAF91A89893F00638D36 /* DetailViewController.h */,
 				27CDCAFA1A89893F00638D36 /* DetailViewController.m */,
+				27CDCC451A8D051100638D36 /* YosemiteViewController.h */,
+				27CDCC461A8D051100638D36 /* YosemiteViewController.m */,
+				27CDCD061A8D7A3A00638D36 /* SpaceViewController.h */,
+				27CDCD071A8D7A3A00638D36 /* SpaceViewController.m */,
 				27CDCADD1A8980E800638D36 /* Main.storyboard */,
 				27CDCAE01A8980E800638D36 /* Images.xcassets */,
 				27CDCAE21A8980E800638D36 /* LaunchScreen.xib */,
@@ -103,6 +117,8 @@
 		27CDCAD31A8980E800638D36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27CDCD091A8D7B9800638D36 /* Space.jpeg */,
+				27CDCC7A1A8D13B500638D36 /* Yosemite.jpg */,
 				27CDCB001A899A0D00638D36 /* TimesSquare.jpg */,
 				27CDCAD41A8980E800638D36 /* Info.plist */,
 				27CDCAD51A8980E800638D36 /* main.m */,
@@ -207,9 +223,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CDCC7B1A8D13B500638D36 /* Yosemite.jpg in Resources */,
 				27CDCADF1A8980E800638D36 /* Main.storyboard in Resources */,
 				27CDCB011A899A0D00638D36 /* TimesSquare.jpg in Resources */,
 				27CDCAE41A8980E800638D36 /* LaunchScreen.xib in Resources */,
+				27CDCD0A1A8D7B9800638D36 /* Space.jpeg in Resources */,
 				27CDCAE11A8980E800638D36 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,8 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CDCC471A8D051100638D36 /* YosemiteViewController.m in Sources */,
 				27CDCADC1A8980E800638D36 /* ViewController.m in Sources */,
 				27CDCAD91A8980E800638D36 /* AppDelegate.m in Sources */,
+				27CDCD081A8D7A3A00638D36 /* SpaceViewController.m in Sources */,
 				27CDCAD61A8980E800638D36 /* main.m in Sources */,
 				27CDCAFB1A89893F00638D36 /* DetailViewController.m in Sources */,
 			);
@@ -424,6 +444,7 @@
 				27CDCAF51A8980E800638D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27CDCAF61A8980E800638D36 /* Build configuration list for PBXNativeTarget "SwitchScreensTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +453,7 @@
 				27CDCAF81A8980E800638D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

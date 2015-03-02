@@ -39,14 +39,17 @@
     
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, (index +1) * heightOfScoreBlock, self.view.frame.size.width, heightOfScoreBlock)];
     
-    view.backgroundColor = [UIColor redColor];
+    view.backgroundColor = [UIColor lightGrayColor];
     
     UITextField *name = [[UITextField alloc] initWithFrame:CGRectMake(32, 8, 128, 64)];
     name.placeholder = @"name";
+    name.backgroundColor = [UIColor yellowColor];
     
     UILabel *score = [[UILabel alloc] initWithFrame:CGRectMake(135, 16, 50, 50)];
     [self.scoreLabels addObject:score];
     score.text = @"0";
+    score.backgroundColor = [UIColor greenColor];
+    
     
     UIStepper *plusMinus = [[UIStepper alloc] initWithFrame:CGRectMake(195, 24, 0, 0)];
     plusMinus.minimumValue = 0;

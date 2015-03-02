@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TTDetailViewController">
+            <connections>
+                <outlet property="tableView" destination="zkY-Bs-0fy" id="wbM-sR-Z3Y"/>
+                <outlet property="timeLabel" destination="fAC-mr-5w4" id="TW3-0M-o7d"/>
+                <outlet property="titleTextField" destination="upe-gH-biL" id="N7D-y0-qKK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="upe-gH-biL">
+                    <rect key="frame" x="85" y="140" width="430" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <variation key="heightClass=regular" fixedFrame="YES">
+                        <rect key="frame" x="80" y="151" width="430" height="30"/>
+                    </variation>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="N50-dd-zWW"/>
+                    </connections>
+                </textField>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="zkY-Bs-0fy">
+                    <rect key="frame" x="141" y="218" width="300" height="258"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Time " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAC-mr-5w4">
+                    <rect key="frame" x="212" y="59" width="176" height="68"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UDv-IB-YSV">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <items>
+                        <barButtonItem title="Add" id="JjE-sQ-Kl7">
+                            <connections>
+                                <action selector="addReport:" destination="-1" id="F9q-Cm-56u"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="59C-o8-i9M"/>
+                        <barButtonItem title="Check in" id="eQK-df-gwW">
+                            <connections>
+                                <action selector="checkIn:" destination="-1" id="AiO-MR-us5"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="Exp-aE-F5o"/>
+                        <barButtonItem title="Check out" id="LUl-5y-N0K">
+                            <connections>
+                                <action selector="checkOut:" destination="-1" id="ER5-Wl-KjK"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="08g-xy-z3K"/>
+                        <barButtonItem title="Report" id="CSJ-kA-Jjz">
+                            <connections>
+                                <action selector="report:" destination="-1" id="f0e-bf-pCF"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="UDv-IB-YSV" secondAttribute="bottom" id="Ijr-KR-CFy"/>
+                <constraint firstAttribute="centerX" secondItem="zkY-Bs-0fy" secondAttribute="centerX" constant="9" id="YeA-Yp-rYS"/>
+                <constraint firstAttribute="centerX" secondItem="upe-gH-biL" secondAttribute="centerX" constant="-2" id="bCP-MG-xkg"/>
+                <constraint firstItem="UDv-IB-YSV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fZa-cI-cuV"/>
+                <constraint firstAttribute="centerX" secondItem="UDv-IB-YSV" secondAttribute="centerX" id="ipJ-ny-KWG"/>
+                <constraint firstAttribute="trailing" secondItem="UDv-IB-YSV" secondAttribute="trailing" id="qVe-gL-YZW"/>
+                <constraint firstAttribute="centerX" secondItem="fAC-mr-5w4" secondAttribute="centerX" id="rx8-oq-1w0"/>
+            </constraints>
+            <point key="canvasLocation" x="373" y="313"/>
+        </view>
+    </objects>
+</document>

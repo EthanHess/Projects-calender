@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8rI-8L-wTW">
+                                <rect key="frame" x="0.0" y="250" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Blue" id="rx1-if-CdA">
+                                        <connections>
+                                            <action selector="makeBlue:" destination="BYZ-38-t0r" id="U10-i8-Qgp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Green" id="dez-mw-baB">
+                                        <connections>
+                                            <action selector="makeGreen:" destination="BYZ-38-t0r" id="qWg-jg-fnJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Purple" id="hhj-Ya-pUH">
+                                        <connections>
+                                            <action selector="makePurple:" destination="BYZ-38-t0r" id="A6Z-yy-uJ2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Galaxy" id="S3U-Ri-M8c">
+                                        <connections>
+                                            <action selector="makePic1:" destination="BYZ-38-t0r" id="mrT-uQ-I3C"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Planet" id="KMt-gp-yyn">
+                                        <connections>
+                                            <action selector="makePic2:" destination="BYZ-38-t0r" id="5z1-De-tte"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Quasar" id="Zob-DB-s1H">
+                                        <connections>
+                                            <action selector="makePic3:" destination="BYZ-38-t0r" id="cG4-0I-G37"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <pickerView tag="-1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zyf-P0-zD6">
+                                <rect key="frame" x="-16" y="323" width="600" height="162"/>
+                                <color key="backgroundColor" red="0.78594677859999995" green="1" blue="0.1451864232" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="0.084359880779999993" blue="0.2227578996" alpha="1" colorSpace="calibratedRGB"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="GButton" destination="8rI-8L-wTW" id="9ms-30-xhv"/>
+                        <outlet property="GbuttonAgain" destination="8rI-8L-wTW" id="zr5-aN-VFG"/>
+                        <outlet property="OtherGButton" destination="8rI-8L-wTW" id="0lr-Ps-vlg"/>
+                        <outlet property="blueButton" destination="8rI-8L-wTW" id="uGz-Pk-0gm"/>
+                        <outlet property="greenButon" destination="8rI-8L-wTW" id="kdw-ds-loV"/>
+                        <outlet property="purpleButton" destination="8rI-8L-wTW" id="DzU-qA-hPE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
