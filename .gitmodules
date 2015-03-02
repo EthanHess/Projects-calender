@@ -1,3 +1,6 @@
 [submodule "SubmoduleDemo/External/AFNetworking"]
 	path = SubmoduleDemo/External/AFNetworking
 	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "SVProgress/external/SVProgressHUD"]
+	path = SVProgress/external/SVProgressHUD
+	url = https://github.com/TransitApp/SVProgressHUD.git
