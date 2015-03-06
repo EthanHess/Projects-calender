@@ -27,6 +27,7 @@
     
     NSArray *cars = [[CoreDataHelper sharedInstance].managedObjectContext executeFetchRequest:fetchRequest error:NULL];
     
+    
     return cars;
     
 }
@@ -40,6 +41,8 @@
     car.year = year;
     
     [self save];
+    
+//    NSLog(@"%@", make, @"%@", model, "%@", year);
     
     return car;
 }

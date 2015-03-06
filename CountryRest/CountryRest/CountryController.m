@@ -24,7 +24,7 @@
     
 }
 
-- (void)getCountriesWithName:(NSString *)name completion:(void (^)(NSArray *))completion{
+- (void)getCountriesWithName:(NSString *)name completion:(void (^)(NSArray *countries))completion {
     
     NSString *path = [NSString stringWithFormat:@"name/%@", name];
                       

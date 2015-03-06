@@ -15,7 +15,7 @@ static NSString * const cellIdentifier = @"cell";
 
 - (void)registerTableView:(UITableView *)tableView {
     
-    [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellIndentifier];
+    [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellIdentifier];
    
 }
     
@@ -29,6 +29,12 @@ static NSString * const cellIdentifier = @"cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
+    cell.textLabel.text = [InformationFile nameAtIndex:indexPath.row];
+    
+    cell.imageView.image = [UIImage imageNamed:[InformationFile imageAtIndex:indexPath.row]];
+    
+    return cell;
+
 }
 
 

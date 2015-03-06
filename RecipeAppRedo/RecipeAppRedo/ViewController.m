@@ -40,7 +40,7 @@ static NSString *title;
     
 }
 
--(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     DetailViewController *detailViewController = [DetailViewController new];
     

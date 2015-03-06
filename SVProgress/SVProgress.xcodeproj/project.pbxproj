@@ -15,6 +15,9 @@
 		27AB39A61AA4F31800D3268D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AB39A51AA4F31800D3268D /* Images.xcassets */; };
 		27AB39A91AA4F31800D3268D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AB39A71AA4F31800D3268D /* LaunchScreen.xib */; };
 		27AB39B51AA4F31800D3268D /* SVProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB39B41AA4F31800D3268D /* SVProgressTests.m */; };
+		27AB39C51AA4F4CE00D3268D /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB39C01AA4F4CE00D3268D /* SVIndefiniteAnimatedView.m */; };
+		27AB39C61AA4F4CE00D3268D /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 27AB39C21AA4F4CE00D3268D /* SVProgressHUD.bundle */; };
+		27AB39C71AA4F4CE00D3268D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB39C41AA4F4CE00D3268D /* SVProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,12 @@
 		27AB39AE1AA4F31800D3268D /* SVProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AB39B31AA4F31800D3268D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27AB39B41AA4F31800D3268D /* SVProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVProgressTests.m; sourceTree = "<group>"; };
+		27AB39BF1AA4F4CE00D3268D /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		27AB39C01AA4F4CE00D3268D /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		27AB39C11AA4F4CE00D3268D /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		27AB39C21AA4F4CE00D3268D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		27AB39C31AA4F4CE00D3268D /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		27AB39C41AA4F4CE00D3268D /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,7 @@
 		27AB39891AA4F31800D3268D = {
 			isa = PBXGroup;
 			children = (
+				27AB39BE1AA4F4CE00D3268D /* SVProgressHUD */,
 				27AB39941AA4F31800D3268D /* SVProgress */,
 				27AB39B11AA4F31800D3268D /* SVProgressTests */,
 				27AB39931AA4F31800D3268D /* Products */,
@@ -120,6 +130,20 @@
 				27AB39B31AA4F31800D3268D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27AB39BE1AA4F4CE00D3268D /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				27AB39BF1AA4F4CE00D3268D /* SVIndefiniteAnimatedView.h */,
+				27AB39C01AA4F4CE00D3268D /* SVIndefiniteAnimatedView.m */,
+				27AB39C11AA4F4CE00D3268D /* SVProgressHUD-Prefix.pch */,
+				27AB39C21AA4F4CE00D3268D /* SVProgressHUD.bundle */,
+				27AB39C31AA4F4CE00D3268D /* SVProgressHUD.h */,
+				27AB39C41AA4F4CE00D3268D /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			path = external/SVProgressHUD/SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +229,7 @@
 				27AB39A41AA4F31800D3268D /* Main.storyboard in Resources */,
 				27AB39A91AA4F31800D3268D /* LaunchScreen.xib in Resources */,
 				27AB39A61AA4F31800D3268D /* Images.xcassets in Resources */,
+				27AB39C61AA4F4CE00D3268D /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +247,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AB39C51AA4F4CE00D3268D /* SVIndefiniteAnimatedView.m in Sources */,
 				27AB399B1AA4F31800D3268D /* AppDelegate.m in Sources */,
 				27AB399E1AA4F31800D3268D /* SVProgress.xcdatamodeld in Sources */,
 				27AB39A11AA4F31800D3268D /* ViewController.m in Sources */,
 				27AB39981AA4F31800D3268D /* main.m in Sources */,
+				27AB39C71AA4F4CE00D3268D /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

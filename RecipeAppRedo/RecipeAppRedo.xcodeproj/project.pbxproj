@@ -17,6 +17,16 @@
 		277CDB861A99828F00F1D32F /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 277CDB851A99828F00F1D32F /* TableViewDataSource.m */; };
 		277CDB891A99860000F1D32F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277CDB881A99860000F1D32F /* DetailViewController.m */; };
 		277CDB8C1A99864A00F1D32F /* InformationFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 277CDB8B1A99864A00F1D32F /* InformationFile.m */; };
+		27AB39C91AA53D5100D3268D /* SpainCity.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB39C81AA53D5100D3268D /* SpainCity.jpeg */; };
+		27AB39CB1AA53D5700D3268D /* SpainPic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB39CA1AA53D5700D3268D /* SpainPic.jpeg */; };
+		27AB39CD1AA53D5D00D3268D /* USAcity.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB39CC1AA53D5D00D3268D /* USAcity.jpeg */; };
+		27AB39CF1AA53D6200D3268D /* USApic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB39CE1AA53D6200D3268D /* USApic.jpeg */; };
+		27AB39D11AA53D6600D3268D /* ChinaPic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB39D01AA53D6600D3268D /* ChinaPic.jpeg */; };
+		27AB39D31AA53D6900D3268D /* ChinaCity.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB39D21AA53D6900D3268D /* ChinaCity.jpeg */; };
+		27AB3AB11AA7C40D00D3268D /* ThaiPic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB3AB01AA7C40D00D3268D /* ThaiPic.jpeg */; };
+		27AB3AB31AA7C41200D3268D /* ThaiCity.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB3AB21AA7C41200D3268D /* ThaiCity.jpeg */; };
+		27AB3AB51AA8BB3D00D3268D /* RussiaPic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB3AB41AA8BB3D00D3268D /* RussiaPic.jpeg */; };
+		27AB3AB71AA8BB4300D3268D /* RussiaCity.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB3AB61AA8BB4300D3268D /* RussiaCity.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		277CDB881A99860000F1D32F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		277CDB8A1A99864A00F1D32F /* InformationFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationFile.h; sourceTree = "<group>"; };
 		277CDB8B1A99864A00F1D32F /* InformationFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationFile.m; sourceTree = "<group>"; };
+		27AB39C81AA53D5100D3268D /* SpainCity.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpainCity.jpeg; sourceTree = "<group>"; };
+		27AB39CA1AA53D5700D3268D /* SpainPic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpainPic.jpeg; sourceTree = "<group>"; };
+		27AB39CC1AA53D5D00D3268D /* USAcity.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = USAcity.jpeg; sourceTree = "<group>"; };
+		27AB39CE1AA53D6200D3268D /* USApic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = USApic.jpeg; sourceTree = "<group>"; };
+		27AB39D01AA53D6600D3268D /* ChinaPic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChinaPic.jpeg; sourceTree = "<group>"; };
+		27AB39D21AA53D6900D3268D /* ChinaCity.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChinaCity.jpeg; sourceTree = "<group>"; };
+		27AB3AB01AA7C40D00D3268D /* ThaiPic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThaiPic.jpeg; sourceTree = "<group>"; };
+		27AB3AB21AA7C41200D3268D /* ThaiCity.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThaiCity.jpeg; sourceTree = "<group>"; };
+		27AB3AB41AA8BB3D00D3268D /* RussiaPic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RussiaPic.jpeg; sourceTree = "<group>"; };
+		27AB3AB61AA8BB4300D3268D /* RussiaCity.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RussiaCity.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +131,16 @@
 		277CDB5E1A99804900F1D32F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27AB3AB61AA8BB4300D3268D /* RussiaCity.jpeg */,
+				27AB3AB41AA8BB3D00D3268D /* RussiaPic.jpeg */,
+				27AB3AB21AA7C41200D3268D /* ThaiCity.jpeg */,
+				27AB3AB01AA7C40D00D3268D /* ThaiPic.jpeg */,
+				27AB39D21AA53D6900D3268D /* ChinaCity.jpeg */,
+				27AB39D01AA53D6600D3268D /* ChinaPic.jpeg */,
+				27AB39CE1AA53D6200D3268D /* USApic.jpeg */,
+				27AB39CC1AA53D5D00D3268D /* USAcity.jpeg */,
+				27AB39CA1AA53D5700D3268D /* SpainPic.jpeg */,
+				27AB39C81AA53D5100D3268D /* SpainCity.jpeg */,
 				277CDB5F1A99804900F1D32F /* Info.plist */,
 				277CDB601A99804900F1D32F /* main.m */,
 			);
@@ -214,9 +244,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AB39D11AA53D6600D3268D /* ChinaPic.jpeg in Resources */,
+				27AB39CD1AA53D5D00D3268D /* USAcity.jpeg in Resources */,
 				277CDB6A1A99804900F1D32F /* Main.storyboard in Resources */,
 				277CDB6F1A99804900F1D32F /* LaunchScreen.xib in Resources */,
+				27AB39C91AA53D5100D3268D /* SpainCity.jpeg in Resources */,
+				27AB3AB51AA8BB3D00D3268D /* RussiaPic.jpeg in Resources */,
+				27AB39CB1AA53D5700D3268D /* SpainPic.jpeg in Resources */,
+				27AB3AB31AA7C41200D3268D /* ThaiCity.jpeg in Resources */,
+				27AB3AB11AA7C40D00D3268D /* ThaiPic.jpeg in Resources */,
+				27AB39CF1AA53D6200D3268D /* USApic.jpeg in Resources */,
 				277CDB6C1A99804900F1D32F /* Images.xcassets in Resources */,
+				27AB39D31AA53D6900D3268D /* ChinaCity.jpeg in Resources */,
+				27AB3AB71AA8BB4300D3268D /* RussiaCity.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +472,7 @@
 				277CDB801A99804A00F1D32F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		277CDB811A99804A00F1D32F /* Build configuration list for PBXNativeTarget "RecipeAppRedoTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +481,7 @@
 				277CDB831A99804A00F1D32F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

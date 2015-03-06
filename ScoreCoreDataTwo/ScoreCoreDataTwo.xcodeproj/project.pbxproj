@@ -23,6 +23,7 @@
 		27AB39241AA282DB00D3268D /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB39231AA282DB00D3268D /* CoreDataHelper.m */; };
 		27AB392A1AA2885700D3268D /* PlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB39291AA2885700D3268D /* PlayerController.m */; };
 		27AB392D1AA2889900D3268D /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AB392C1AA2889900D3268D /* Player.m */; };
+		27AB39D51AA616A400D3268D /* earth.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 27AB39D41AA616A400D3268D /* earth.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		27AB39291AA2885700D3268D /* PlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerController.m; sourceTree = "<group>"; };
 		27AB392B1AA2889900D3268D /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		27AB392C1AA2889900D3268D /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		27AB39D41AA616A400D3268D /* earth.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		27AB38ED1AA27E7A00D3268D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27AB39D41AA616A400D3268D /* earth.jpeg */,
 				27AB391A1AA27EBA00D3268D /* Mountains.jpg */,
 				27AB39181AA27EB300D3268D /* wood.jpg */,
 				27AB39161AA27EAB00D3268D /* sand.jpg */,
@@ -237,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27AB391B1AA27EBA00D3268D /* Mountains.jpg in Resources */,
+				27AB39D51AA616A400D3268D /* earth.jpeg in Resources */,
 				27AB38FC1AA27E7A00D3268D /* Main.storyboard in Resources */,
 				27AB39191AA27EB300D3268D /* wood.jpg in Resources */,
 				27AB39171AA27EAB00D3268D /* sand.jpg in Resources */,
@@ -460,6 +464,7 @@
 				27AB39121AA27E7A00D3268D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27AB39131AA27E7A00D3268D /* Build configuration list for PBXNativeTarget "ScoreCoreDataTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				27AB39151AA27E7A00D3268D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
